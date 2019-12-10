@@ -2,8 +2,8 @@
 
 Playground: https://next.plnkr.co/edit/NmyeEqvkRV25hYxD?preview
 
-Note. Rename "phaser" to "Phaser" in the "node_modules/phaser/types/phaser.d.ts" file:
+Note. Rename "phaser" to "Phaser" in the "node_modules/phaser/types/phaser.d.ts" file, here:
 
-declare module 'phaser' {
-    export = Phaser;
-}
+    declare module 'phaser' {
+        export = Phaser;
+    }
